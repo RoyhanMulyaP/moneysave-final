@@ -1,0 +1,43 @@
+.sidebar {
+  width: 240px;
+  background: #f97416;
+  color: #fff;
+  height: 100vh;
+  padding: 20px 0;
+  position: fixed;
+}
+
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sidebar .logo h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sidebar .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.sidebar .menu a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.sidebar .menu a:hover{
+  background: rgba(255,255,255,0.2);
+  border-left: 4px solid #fff;
+}
