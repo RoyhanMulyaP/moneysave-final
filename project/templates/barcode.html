@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setor Barcode</title>
+  <link rel="stylesheet" href="./static/css/barcode.css">
+</head>
+<body>
+  <input type="hidden" id="userId" value="{{ user_id }}" />
+  <div class="header">
+    <img src="./static/img/money_save.png" alt="Money Save" class="logo">
+  </div>
+
+  <div class="content">
+    <div class="barcode-box">
+      <img src="./static/img/barcode.png" alt="Barcode">
+    </div>
+
+    <div class="instruction">
+  <h3 class="title">Petunjuk & Arahan</h3>
+  <p>
+    Barcode ini berfungsi sebagai bukti setoran tabungan Anda.
+    Silakan tunjukkan barcode ini kepada petugas Bank Mini
+    agar dapat dipindai dan dicatat sebagai setoran resmi.
+    <span class="blue">Pastikan Anda membawa uang setoran sesuai nominal yang akan dibayarkan.</span>
+  </p>
+  <br>
+  <p>
+    <span class="note">Note:</span>
+    Jangan lupa untuk memeriksa menu Riwayat guna memastikan saldo setoran sudah tercatat atau belum.
+  </p>
+</div>
+
+  <div class="footer">
+      <div class="footer-item">
+        <a href="{{url_for('beranda_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/home_polos.png" alt="Home">
+          <p>Beranda</p>
+        </a>
+      </div>
+      <div class="footer-item">
+        <a href="{{url_for('riwayat_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/riwayat.png" alt="Riwayat">
+          <p>Riwayat</p>
+        </a>
+      </div>
+      <div class="footer-item qr active">
+        <a href="{{url_for('barcode_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/money.png" alt="Wallet">
+        </a>
+      </div>
+      <div class="footer-item">
+        <a href="{{url_for('notifikasi_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/notif.png" alt="Notif">
+          <p>Notifikasi</p>
+        </a>
+      </div>
+      <div class="footer-item">
+        <a href="{{url_for('profile_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/profile.png" alt="Profile">
+          <p>Profile</p>
+        </a>
+      </div>
+  </div>
+</body>
+</html>
