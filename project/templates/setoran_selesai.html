@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/setoran_selesai.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}">
+    <div class="setoran-selesai">
+      <div class="div">
+        <img class="women-holding-phone" src="./static/img/setoran_pertama.png" />
+        <div class="text-wrapper">Setoran Awal Dulu Ya!</div>
+        <p class="silahkan-lakukan">
+          Silahkan lakukan setoran awal sebesar Rp10.000<br />ke virtual account
+          dibawah ya!
+        </p>
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+        <div class="overlap-group">
+          <img class="img" src="./static/img/money_save.png" />
+          <div class="text-wrapper-2">Money Save Virtual Account</div>
+          <div class="overlap">
+            <a href="{{url_for('buat_akun_page')}}">
+              <button class="btn-rectangle"><span>Selesai</span></button>
+            </a>
+          </div>
+        </div>
+        <img class="fi-rr-thumbs-up" src="./static/img/money_save.png" />
+        <p class="p">
+          Jika dalam 24 Jam setoran awal belum dilakukan, maka kamu harus
+          mengulang proses pendaftaran dari awal ya! pastikan bayar tepat
+          waktu😤
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

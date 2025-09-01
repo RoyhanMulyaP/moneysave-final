@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riwayat</title>
+    <link rel="stylesheet" href="./static/css/riwayat.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="header">
+      <button class="back-btn">
+        <img src="./static/icon/kembali.png" alt="Back" />
+      </button>
+      <img src="./static/img/money_save.png" alt="Logo" class="logo" />
+      <button class="filter-btn">
+        <img src="./static/icon/filter.png" alt="Filter" />
+      </button>
+    </div>
+
+    <div class="search-container">
+      <input
+        type="text"
+        placeholder="Cari Transaksi disini yaa!"
+        class="search-box"
+      />
+    </div>
+
+    <div class="riwayat-list">
+      <div class="riwayat-item">
+        <div class="icon">
+          <img src="./static/icon/down.png" alt="Masuk" />
+        </div>
+        <div class="info">
+          <p class="title">Tabungan Masuk</p>
+          <p class="date">12/02/2023 16:01:32</p>
+        </div>
+        <div class="amount plus">+Rp10.000</div>
+      </div>
+
+      <div class="riwayat-item">
+        <div class="icon">
+          <img src="./static/icon/down.png" alt="Masuk" />
+        </div>
+        <div class="info">
+          <p class="title">Tabungan Masuk</p>
+          <p class="date">12/02/2023 16:01:32</p>
+        </div>
+        <div class="amount plus">+Rp200.000</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-item">
+        <a
+          href="{{url_for('beranda_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/home_polos.png" alt="Home" />
+          <p>Beranda</p>
+        </a>
+      </div>
+      <div class="footer-item active">
+        <a
+          href="{{url_for('riwayat_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/riwayat_putih.png" alt="Riwayat" />
+          <p>Riwayat</p>
+        </a>
+      </div>
+      <div class="footer-item qr">
+        <a href="{{url_for('barcode_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/money.png" alt="Wallet" />
+        </a>
+      </div>
+      <div class="footer-item">
+        <a
+          href="{{url_for('notifikasi_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/notif.png" alt="Notif" />
+          <p>Notifikasi</p>
+        </a>
+      </div>
+      <div class="footer-item">
+        <a
+          href="{{url_for('profile_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/profile.png" alt="Profile" />
+          <p>Profile</p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

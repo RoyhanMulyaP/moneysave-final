@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/validasi_data.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="validasi-data">
+      <div class="div">
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+        <div class="text-wrapper">Lengkapi Data Yuk</div>
+        <p class="lengkapi-data-yang">
+          Lengkapi data yang diperlukan ya, isi data yang kosong dan
+          benarkan apabila data salah!
+        </p>
+        <div class="group">
+          <label class="text-wrapper-2" for="nik"
+            >Nomor Induk Kependudukan (NIK)</label
+          >
+          <input
+            class="input-box"
+            id="nik"
+            type="text"
+             value="{{ user.nik if user else '' }}"
+          />
+
+          <label class="text-wrapper-4" for="nama">Nama Lengkap</label>
+          <input
+            class="input-box"
+            id="nama"
+            type="text"
+            value="{{ user.nama if user else '' }}"
+          />
+
+          <label class="text-wrapper-5" for="ttl">Tanggal Lahir</label>
+          <input
+            class="input-box"
+            id="ttl"
+            type="date"
+            value="{{ user.tgl_lahir if user else '' }}"
+          />
+
+          <label class="text-wrapper-6" for="agama">Agama</label>
+          <input
+            class="input-box"
+            id="agama"
+            type="text"
+            value="{{ user.agama if user else '' }}"
+          />
+
+          <label class="text-wrapper-7" for="alamat">Alamat Lengkap</label>
+          <textarea
+            class="input-box"
+            id="alamat"
+            type="text">{{ user.alamat if user else '' }}
+          </textarea> 
+
+          <label class="text-wrapper-8" for="jenis_kelamin"
+            >Jenis Kelamin</label
+          >
+          <input class="input-box" id="jenis_kelamin" type="text" value="{{ user.jenis_kelamin if user else '' }}" />
+
+          <label class="text-wrapper-9" for="email">Email</label>
+          <input class="input-box" id="email" type="text" value="{{ user.email if user else '' }}" />
+
+          <label class="text-wrapper-10" for="rekening">Nomor Rekening</label>
+          <input
+            class="input-box"
+            id="rekening"
+            type="text"
+            value="{{ rekening.no_rek if rekening else '' }}"
+          />
+
+          <label class="text-wrapper-11" for="username">Nama Pemilik Rekening</label>
+          <input
+          class="input-box"
+          id="username"
+          type="text"value="{{ rekening.nama_rekening if rekening else '' }}"
+          />
+
+          <label class="text-wrapper-12" for="cabang">Cabang Pembuatan Rekening</label>
+          <input
+          class="input-box"
+          id="cabang"
+          type="text"
+          value="{{ rekening.cabang if rekening else '' }}"
+        />
+
+          <label class="text-wrapper-13" for="tgl_rekening">Tanggal Pembuatan Rekening</label>
+          <input
+          class="input-box"
+          id="tgl_rekening"
+          type="date"
+          value="{{ rekening.created_at if rekening else '' }}"
+        />
+
+          <label class="text-wrapper-14" for="hp">Nomor Handphone</label>
+          <input
+          class="input-box"
+          id="hp"
+          type="text"
+          value="{{ user.hp if user else '' }}"
+        />
+
+          <div class="overlap-11">
+            <button id="doneBtn" class="btn-rectangle">Done</button>
+          </div>
+          <div class="group-2">
+            <img class="OJK" src="./static/img/OJK-1.png" />
+            <img class="logo-lps" src="./static/img/logo-lps-1.png" />
+            <img class="logo-bun" src="./static/img/logo-bun-1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/update.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="./static/css/landing_menu.css" />
+  </head>
+  <body>
+    <div class="landing-menu">
+      <div class="div">
+        <img class="women-holding-phone" src="./static/img/landing_menu.png" />
+        <div class="text-wrapper">Money Save SuperApp</div>
+        <p class="wujudkan-semua">
+          Wujudkan semua keinginanmu #GakPakeNanti dan<br />nikmati segala
+          kemudahan Money Save MOBILE BANKING
+        </p>
+        <div class="overlap">
+          <a href="{{ url_for('form_page') }}" style="text-decoration: none; color: white;">
+            <button class="btn-rectangle">Sudah Punya Akun</button>
+          </a>
+        </div>
+        <div class="overlap-group">
+          <a href="{{ url_for('buka_rekening_page') }}" style="text-decoration: none; color: #e16417;">
+            <button class="btn-rectangle-ak">Belum Punya Akun</button>            
+          </a>
+        </div>
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/verifikasi_data.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="verifikasi-data">
+      <div class="div">
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+        <div class="button-wrapper">
+          <button id="lanjutBtn" class="btn-rectangle">Lanjut Data Rekening</button>
+        </div>
+        <div class="text-wrapper-2">Verifikasi Data</div>
+        <p class="silahkan-cek-ulang">
+          Silahkan cek ulang data yang telah kami baca, jika<br />ada yang salah
+          silahkan betulkan ya⭐
+        </p>
+        <label class="text-wrapper-3" for="nik"
+          >Nomor Induk Kependudukan (NIK)</label
+        >
+        <input
+          class="input-box"
+          id="nik"
+          type="text"
+          value="{{ user.nik if user else '' }}"
+          readonly
+        />
+
+        <label class="text-wrapper-5" for="nama">Nama Lengkap</label>
+        <input
+          class="input-box"
+          id="nama"
+          type="text"
+          value="{{ user.nama if user else '' }}"
+          readonly
+        />
+
+        <label class="text-wrapper-6" for="ttl">Tanggal Lahir</label>
+        <input
+          class="input-box"
+          id="ttl"
+          type="text"
+          value="{{ user.tgl_lahir if user else '' }}"
+          readonly
+        />
+
+        <label class="text-wrapper-7" for="agama">Agama</label>
+        <input
+          class="input-box"
+          id="agama"
+          type="text"
+          value="{{ user.agama if user else '' }}"
+          readonly
+        />
+
+        <label class="text-wrapper-8" for="alamat">Alamat Lengkap</label>
+        <textarea class="input-box" id="alamat" rows="4" cols="50" readonly>
+        {{ user.alamat if user else '' }}
+        </textarea>
+
+        <label class="text-wrapper-9" for="jenis_kelamin">Jenis Kelamin</label>
+        <select class="input-box" id="jenis_kelamin" name="jenis_kelamin" required>
+          <option value="">Pilih Jenis Kelamin</option>
+          <option value="Laki-Laki">Laki-Laki</option>
+          <option value="Perempuan">Perempuan</option>
+        </select>
+
+        <div class="group">
+          <img class="OJK" src="./static/img/OJK-1.png" />
+          <img class="logo-lps" src="./static/img/logo-lps-1.png" />
+          <img class="logo-bun" src="./static/img/logo-bun-1.png" />
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/jenis_kelamin.js') }}"></script>
+  </body>
+</html>

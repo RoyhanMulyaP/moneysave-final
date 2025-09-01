@@ -1,0 +1,107 @@
+<?php
+// Nanti bisa tambahin session cek login di sini
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Money Save</title>
+  <link rel="stylesheet" href="./static/css/profile.css">
+</head>
+<body>
+  <input type="hidden" id="userId" value="{{ user_id }}" />
+  <div class="header">
+    <button onclick="history.back()">
+      <img src="./static/icon/kembali.png" alt="Kembali">
+    </button>
+    <img src="./static/img/money_save.png" alt="Logo" class="logo">
+    <div style="width:24px;"></div>
+  </div>
+
+  <div class="profile-container">
+    <img src="./static/img/profile.png" alt="Foto Profil">
+    <h3>{{ user.nama }}</h3>
+  </div>
+
+  <div class="menu-list">
+    <div class="menu-item">
+      <div class="left">
+        <img src="./static/icon/user.png" alt="">
+        <span class="text">Informasi Profile</span>
+      </div>
+      <img src="./static/icon/arrow.png" alt="">
+    </div>
+
+    <div class="menu-item">
+      <div class="left">
+        <img src="./static/icon/guard.png" alt="">
+        <span class="text">Keamanan Akun</span>
+      </div>
+      <img src="./static/icon/arrow.png" alt="">
+    </div>
+
+    <div class="menu-item">
+      <div class="left">
+        <img src="./static/icon/settings.png" alt="">
+        <span class="text">Settings</span>
+      </div>
+      <img src="./static/icon/arrow.png" alt="">
+    </div>
+
+    <div class="menu-item">
+      <div class="left">
+        <img src="./static/icon/information.png" alt="">
+        <span class="text">Syarat & Ketentuan</span>
+      </div>
+      <img src="./static/icon/arrow.png" alt="">
+    </div>
+
+    <div class="menu-item">
+      <div class="left">
+        <img src="./static/icon/help.png" alt="">
+        <span class="text">Help Center</span>
+      </div>
+      <img src="./static/icon/arrow.png" alt="">
+    </div>
+  </div>
+
+  <a href="{{url_for('logout')}}" style="text-decoration: none; color: #333;">
+    <div class="logout">Keluar</div>
+  </a>
+
+  <div class="footer">
+        <div class="footer-item">
+          <a href="{{url_for('beranda_page')}}" style="text-decoration: none; color: white;">
+            <img src="./static/icon/home_polos.png" alt="Home">
+            <p>Beranda</p>
+          </a>
+        </div>
+        <div class="footer-item">
+          <a href="{{url_for('riwayat_page')}}" style="text-decoration: none; color: white;">
+            <img src="./static/icon/riwayat.png" alt="Riwayat">
+            <p>Riwayat</p>
+          </a>
+        </div>
+        <div class="footer-item qr">
+          <a href="{{url_for('barcode_page')}}" style="text-decoration: none; color: white;">
+            <img src="./static/icon/money.png" alt="Wallet">
+          </a>
+        </div>
+        <div class="footer-item">
+          <a href="{{url_for('notifikasi_page')}}" style="text-decoration: none; color: white;">
+            <img src="./static/icon/notif.png" alt="Notif">
+            <p>Notifikasi</p>
+          </a>
+        </div>
+        <div class="footer-item">
+          <a href="{{url_for('profile_page')}}" style="text-decoration: none; color: white;">
+            <img src="./static/icon/profile_isi.png" alt="Profile">
+            <p>Profile</p>
+          </a>
+        </div>
+    </div>
+
+</body>
+</html>

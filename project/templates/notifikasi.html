@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifikasi</title>
+    <link rel="stylesheet" href="./static/css/notifikasi.css">
+</head>
+<body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="header">
+        <button class="back-btn">
+            <img src="./static/icon/kembali.png" alt="Back">
+        </button>
+        <img src="./static/img/money_save.png" alt="Logo" class="logo">
+        <button class="filter-btn">
+            <img src="./static/icon/filter.png" alt="Filter">
+        </button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="Cari Notifikasi disini yaa!" class="search-box">
+    </div>
+
+    <div class="notifikasi-list">
+        <h4>Hari ini</h4>
+
+        <div class="notifikasi-item">
+            <div class="icon">
+                <img src="./static/icon/notification.png" alt="Notif">
+            </div>
+            <div class="info">
+                <p class="title">Tabungan Masuk</p>
+                <p class="desc">Tabungan Masuk Rp20.000</p>
+                <p class="date">12/02/2023 16:01:32 • 15 Menit</p>
+            </div>
+            <div class="hapus">
+                <img src="./static/icon/sampah.png" alt="Hapus">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-item">
+            <a href="{{url_for('beranda_page')}}" style="text-decoration: none; color: white;">
+                <img src="./static/icon/home_polos.png" alt="Home">
+                <p>Beranda</p>
+            </a>
+        </div>
+        <div class="footer-item">
+            <a href="{{url_for('riwayat_page')}}" style="text-decoration: none; color: white;">
+                <img src="./static/icon/riwayat.png" alt="Riwayat">
+                <p>Riwayat</p>
+            </a>
+        </div>
+        <div class="footer-item qr">
+            <a href="{{url_for('barcode_page')}}" style="text-decoration: none; color: white;">
+                <img src="./static/icon/money.png" alt="Wallet">
+            </a>
+        </div>
+        <div class="footer-item active">
+            <a href="{{url_for('notifikasi_page')}}" style="text-decoration: none; color: white;">
+                <img src="./static/icon/notif_isi.png" alt="Notif">
+                <p>Notifikasi</p>
+            </a>
+        </div>
+        <div class="footer-item">
+            <a href="{{url_for('profile_page')}}" style="text-decoration: none; color: white;">
+                <img src="./static/icon/profile.png" alt="Profile">
+                <p>Profile</p>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

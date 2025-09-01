@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/sign_up.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="form">
+      <div class="div">
+        <img class="women-holding-phone" src="./static/img/login.png" />
+        <div class="text-wrapper">Sign-Up Money Save MOBILE</div>
+        <p class="sekarang-kamu-udah">
+          Sekarang kamu udah bisa nikmatin semua fiturnya,<br />aktifkan smart login di settings ya🔔
+        </p>
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+        <label class="text-wrapper-2" for="email">Email</label>
+        <input class="input-box" id="email" type="email" value="{{ email }}" placeholder="Masukkan Email">
+
+        <label class="text-wrapper-3" for="password">Password</label>
+        <input class="input-box" id="password" type="password" placeholder="Password Minimal 8 digit">
+
+        <div class="button-wrapper">
+          <div id="signUpBtn" class="btn-rectangle"><span>Sign-Up</span></div>
+        </div>
+        <div class="group">
+          <img class="OJK" src="./static/img/OJK-1.png" />
+          <img class="logo-lps" src="./static/img/logo-lps-1.png" />
+          <img class="logo-bun" src="./static/img/logo-bun-1.png" />
+        </div>
+      </div>
+    </div>
+    <script src="./static/js/sign_up.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Save</title>
+    <link rel="stylesheet" href="./static/css/beranda.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="header">
+      <div class="header-left">
+        <p class="salam">Selamat Malam, {{ user.nama }}</p>
+        <img src="./static/img/money_save.png" alt="Logo" class="logo" />
+      </div>
+      <div class="header-right">
+        <img src="./static/img/profile.png" alt="Profile" class="profile-pic" />
+      </div>
+    </div>
+    <hr class="header-divider" />
+
+    <div class="rekening-card">
+      <p class="nama">{{user.nama}}</p>
+      <p class="rekening">{{ rekening.cabang }} | {{ rekening.no_rek[:10] }}</p>
+      <div class="saldo">
+        <p class="rp">Rp {{ "{:,.0f}".format(rekening.setoran) }}</p>
+      </div>
+      <div class="info">
+        <div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="target-section">
+      <div class="target-header">
+        <p>Target Menabung</p>
+        <button id="openModalBtn" class="btn-tambah-target">
+          + Tambah Target
+        </button>
+
+        <div id="modalOverlay" class="modal-overlay">
+          <div class="modal-box">
+            <div class="modal-header">
+              <h3>Tambah Target</h3>
+              <span id="closeModalBtn" class="close-btn">&times;</span>
+            </div>
+
+            <div class="modal-body">
+              <label>Nama Target</label>
+              <input type="text" id="namaTarget" placeholder="Contoh: Beli Laptop" />
+
+              <label>Tenggat Waktu</label>
+              <div class="input-icon">
+                <input id="tenggatTarget" type="date" />
+                <span class="icon"></span>
+              </div>
+
+              <h4>Rincian Pengeluaran</h4>
+              <div id="rincianContainer">
+                <div class="rincian-item">
+                  <input type="text" placeholder="Pengeluaran" />
+                  <input type="text" placeholder="Nominal Uang (Rp)" />
+                </div>
+
+                <div class="rincian-item">
+                  <input type="text" placeholder="Pengeluaran" />
+                  <input type="text" placeholder="Nominal Uang (Rp)" />
+                </div>
+
+                <button class="btn-tambah-rincian">
+                  <span class="plus-icon">+</span> Tambah Rincian Pengeluaran
+                </button>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn-simpan" id="btnSimpanTarget">Simpan</button>
+              <button class="btn-batal" id="closeModalBtn2">Batal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% for t in target_list %}
+  <div class="target-card">
+    <p class="judul">{{ t.tujuan }}</p>
+    <p class="target-info">Target: Rp {{ "{:,.0f}".format(t.total_uang) }}</p>
+
+    <div class="progress">
+      <div class="progress-fill" style="width: {{ t.persen }}%"></div>
+    </div>
+
+    <p class="progress-text">
+      Terkumpul: Rp {{ "{:,.0f}".format(t.target_uang) }}
+    </p>
+
+    <ul class="detail-target">
+      {% for r in t.rincian_list %}
+        <li>{{ r.pengeluaran }}: Rp {{ "{:,.0f}".format(r.uang) }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <p>Belum ada target yang ditambahkan.</p>
+{% endfor %}
+
+
+
+    <div class="footer" style="left: -0.2px;">
+      <div class="footer-item">
+        <a
+          href="{{url_for('beranda_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/home.png" alt="Home" />
+          <p>Beranda</p>
+        </a>
+      </div>
+
+      <div class="footer-item">
+        <a
+          href="{{url_for('riwayat_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/riwayat.png" alt="Riwayat" />
+          <p>Riwayat</p>
+        </a>
+      </div>
+      <div class="footer-item qr">
+        <a href="{{url_for('barcode_page')}}" style="text-decoration: none; color: white;">
+          <img src="./static/icon/money.png" alt="Wallet" />
+        </a>
+      </div>
+      <div class="footer-item">
+        <a
+          href="{{url_for('notifikasi_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/notif.png" alt="Notif" />
+          <p>Notifikasi</p>
+        </a>
+      </div>
+      <div class="footer-item">
+        <a
+          href="{{url_for('profile_page')}}"
+          style="text-decoration: none; color: white"
+        >
+          <img src="./static/icon/profile.png" alt="Profile" />
+          <p>Profile</p>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="./static/js/beranda.js"></script>
+</html>

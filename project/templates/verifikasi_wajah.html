@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/verifikasi_wajah.css" />
+  </head>
+  <body>
+    <input type="hidden" id="userId" value="{{ user_id }}" />
+    <div class="verifikasi-wajah">
+      <div class="div">
+        <div class="text-wrapper">Verifikasi Wajah</div>
+        <div class="text-wrapper-2">Perhatikan Ketentuannya ya!</div>
+        <p class="ambil-gambar-selfie">
+          Ambil gambar selfie anda menghadap kamera, <br />ikuti petunjuk
+          dibawah ya!
+        </p>
+        <img class="logo-nama-removebg" src="./static/img/money_save.png" />
+        <div class="button-wrapper">
+          <a
+            href="{{url_for('foto_wajah_page')}}"
+            style="text-decoration: none; color=: white"
+          >
+            <div class="btn-rectangle">Ambil Foto</div>
+          </a>
+        </div>
+        <div class="group">
+          <img class="OJK" src="./static/img/OJK-1.png" />
+          <img class="logo-lps" src="./static/img/logo-lps-1.png" />
+          <img class="logo-bun" src="./static/img/logo-bun-1.png" />
+        </div>
+        <img class="smartselect" src="./static/img/foto_wajah.png" />
+        <div class="overlap"><div class="text-wrapper-4">Benar</div></div>
+        <div class="div-wrapper"><div class="text-wrapper-4">Salah</div></div>
+        <p class="foto-harus-diambil">
+          Foto harus diambil secara langsung, bukan dari gambar atau lainnya<br />Pastikan
+          wajah menghadap tegak ke kamera dan foto tidak buram<br />Posisikan
+          wajah kedalam frame supaya dapat terbaca otomatis<br />Carilah ruang
+          dengan pencahayaan yang baik dan terang, kualitas gambar mempengaruhi
+          proses verifikasi kamu ya!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
