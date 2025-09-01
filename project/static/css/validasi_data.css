@@ -1,0 +1,506 @@
+.validasi-data {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.validasi-data .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 390px;
+  height: 1217px;
+  position: relative;
+}
+
+.validasi-data .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 25px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.validasi-data .text-wrapper {
+  position: absolute;
+  top: 128px;
+  left: 28px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .lengkapi-data-yang {
+  position: absolute;
+  width: 219px;
+  top: 158px;
+  left: 28px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .group {
+  position: absolute;
+  width: 355px;
+  height: 951px;
+  top: 220px;
+  left: 28px;
+}
+
+.validasi-data .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap {
+  width: 305px;
+  top: 23px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-3 {
+  position: absolute;
+  top: 11px;
+  left: 19px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #777777;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-4 {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap-group {
+  width: 305px;
+  top: 94px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-5 {
+  position: absolute;
+  top: 142px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .div-wrapper {
+  width: 305px;
+  top: 165px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-6 {
+  position: absolute;
+  top: 213px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-7 {
+  top: 283px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap-2 {
+  width: 305px;
+  top: 236px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-3 {
+  width: 305px;
+  top: 306px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-8 {
+  position: absolute;
+  top: 353px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-9 {
+  top: 423px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap-4 {
+  width: 305px;
+  top: 376px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-5 {
+  width: 305px;
+  top: 446px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-10 {
+  top: 493px;
+  position: absolute;
+  width: 210px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-11 {
+  position: absolute;
+  width: 210px;
+  top: 564px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-12 {
+  position: absolute;
+  width: 210px;
+  top: 635px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-13 {
+  position: absolute;
+  width: 210px;
+  top: 706px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .text-wrapper-14 {
+  top: 776px;
+  position: absolute;
+  width: 210px;
+  left: 0;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap-6 {
+  width: 305px;
+  top: 516px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-15 {
+  position: absolute;
+  width: 184px;
+  top: 11px;
+  left: 18px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #777777;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .overlap-7 {
+  width: 305px;
+  top: 587px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-8 {
+  width: 305px;
+  top: 658px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-9 {
+  width: 305px;
+  top: 729px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-10 {
+  width: 305px;
+  top: 799px;
+  left: 0;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .overlap-11 {
+  width: 266px;
+  top: 911px;
+  left: -1px;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.validasi-data .text-wrapper-16 {
+  position: absolute;
+  top: 9px;
+  left: 88px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.validasi-data .group-2 {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 858px;
+  left: 21px;
+}
+
+.validasi-data .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.validasi-data .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.validasi-data .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 328px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-box {
+  position: absolute;
+  left: 28px;
+  width: 305px;
+  height: 40px;
+  border: 1px solid #095f7b;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #095f7b;
+  padding: 0 10px;
+  font-family: "Qualion-DemiBold", Helvetica;
+}
+
+#nik{
+    left: -1px;
+    top: 15px;
+}
+
+#nama{
+    left: -1px;
+    top: 86px;
+}
+
+#ttl{
+    left: -1px;
+    top: 157px;
+}
+
+#agama{
+    left: -1px;
+    top: 228px;
+}
+
+#alamat{
+    left: -1px;
+    top: 300px;
+}
+
+#jenis_kelamin{
+    left: -1px;
+    top: 368px;
+}
+
+#email{
+    left: -1px;
+    top: 438px;
+}
+
+#rekening{
+    left: -1px;
+    top: 510px;
+}
+
+#username{
+    left: -1px;
+    top: 580px;
+}
+
+#cabang{
+    left: -1px;
+    top: 652px;
+}
+
+#tgl_rekening{
+    left: -1px;
+    top: 723px;
+}
+
+#hp{
+    left: -1px;
+    top: 792px;
+}

@@ -1,0 +1,190 @@
+.verifikasi-wajah {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.verifikasi-wajah .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.verifikasi-wajah .text-wrapper {
+  position: absolute;
+  top: 209px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-wajah .text-wrapper-2 {
+  position: absolute;
+  top: 434px;
+  left: 47px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-wajah .ambil-gambar-selfie {
+  position: absolute;
+  top: 241px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-wajah .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.verifikasi-wajah .overlap-group {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 726px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.verifikasi-wajah .text-wrapper-3 {
+  position: absolute;
+  top: 8px;
+  left: 97px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-wajah .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 49px;
+}
+
+.verifikasi-wajah .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.verifikasi-wajah .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.verifikasi-wajah .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.verifikasi-wajah .smartselect {
+  position: absolute;
+  width: 262px;
+  height: 82px;
+  top: 294px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.verifikasi-wajah .overlap {
+  position: absolute;
+  width: 68px;
+  height: 20px;
+  top: 391px;
+  left: 75px;
+  background-color: #e16417;
+  border-radius: 61px;
+}
+
+.verifikasi-wajah .text-wrapper-4 {
+  position: absolute;
+  top: 4px;
+  left: 21px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-wajah .div-wrapper {
+  position: absolute;
+  width: 68px;
+  height: 20px;
+  top: 391px;
+  left: 218px;
+  background-color: #095f7b;
+  border-radius: 61px;
+}
+
+.verifikasi-wajah .foto-harus-diambil {
+  position: absolute;
+  width: 265px;
+  top: 467px;
+  left: 48px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #252525;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 270px;
+  height: 20px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 28px;
+  width: 305px;
+}

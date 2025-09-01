@@ -1,0 +1,128 @@
+.pembukaan-rekening {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.pembukaan-rekening .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.pembukaan-rekening .women-holding-phone {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 210px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.pembukaan-rekening .text-wrapper {
+  position: absolute;
+  top: 443px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pembukaan-rekening .buka-rekening-money {
+  position: absolute;
+  top: 475px;
+  left: 47px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pembukaan-rekening .overlap-group {
+  position: absolute;
+  width: 266px;
+  height: 50px;
+  top: 670px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: #000 1px solid;
+}
+
+.pembukaan-rekening .text-wrapper-2 {
+  position: absolute;
+  top: 16px;
+  left: 49px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pembukaan-rekening .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 608px;
+  left: 48px;
+}
+
+.pembukaan-rekening .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.pembukaan-rekening .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.pembukaan-rekening .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.pembukaan-rekening .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}

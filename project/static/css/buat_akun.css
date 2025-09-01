@@ -1,0 +1,358 @@
+.buat-akun-punya {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.buat-akun-punya .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.buat-akun-punya .text-wrapper {
+  position: absolute;
+  top: 209px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .silahkan-lakukan {
+  position: absolute;
+  top: 241px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .overlap-group {
+  position: absolute;
+  width: 268px;
+  height: 262px;
+  top: 284px;
+  left: 48px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #e16417;
+  box-shadow: 0px 0px 4px 2px #e1641740;
+}
+
+.buat-akun-punya .overlap {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 24px;
+  left: 17px;
+  background-color: #095f7b1a;
+  border-radius: 12.5px;
+}
+
+.buat-akun-punya .text-wrapper-2 {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .div-wrapper {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 80px;
+  left: 17px;
+  background-color: #095f7b1a;
+  border-radius: 12.5px;
+}
+
+.buat-akun-punya .overlap-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 145px;
+  left: 17px;
+  background-color: #095f7b1a;
+  border-radius: 12.5px;
+}
+
+.buat-akun-punya .overlap-3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 203px;
+  left: 17px;
+  background-color: #095f7b1a;
+  border-radius: 12.5px;
+}
+
+.buat-akun-punya .text-wrapper-3 {
+  position: absolute;
+  top: 25px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .text-wrapper-4 {
+  position: absolute;
+  top: 81px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .text-wrapper-5 {
+  position: absolute;
+  top: 146px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .p {
+  position: absolute;
+  top: 195px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .text-wrapper-6 {
+  position: absolute;
+  top: 30px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .nanti-kamu-bakalan {
+  position: absolute;
+  top: 86px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .nanti-kami-akan {
+  position: absolute;
+  top: 150px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .text-wrapper-7 {
+  position: absolute;
+  top: 217px;
+  left: 46px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .line {
+  top: 53px;
+  position: absolute;
+  width: 236px;
+  height: 9px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .img {
+  top: 117px;
+  position: absolute;
+  width: 236px;
+  height: 9px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .line-2 {
+  top: 181px;
+  position: absolute;
+  width: 236px;
+  height: 9px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .line-3 {
+  top: 232px;
+  position: absolute;
+  width: 236px;
+  height: 9px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .overlap-4 {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 726px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.buat-akun-punya .rectangle {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  /* background-color: #e16417; */
+  border-radius: 5px;
+}
+
+.buat-akun-punya .text-wrapper-8 {
+  position: absolute;
+  top: 8px;
+  left: 84px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 49px;
+}
+
+.buat-akun-punya .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.buat-akun-punya .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .fi-rr-thumbs-up {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 569px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.buat-akun-punya .semua-proses {
+  position: absolute;
+  width: 242px;
+  top: 561px;
+  left: 73px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 6.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.buat-akun-punya .span {
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 6.5px;
+  letter-spacing: 0;
+}
+
+.buat-akun-punya .text-wrapper-9 {
+  text-decoration: underline;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}

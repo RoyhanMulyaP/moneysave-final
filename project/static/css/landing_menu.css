@@ -1,0 +1,145 @@
+.landing-menu {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.landing-menu .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.landing-menu .women-holding-phone {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 210px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.landing-menu .text-wrapper {
+  position: absolute;
+  top: 443px;
+  left: 47px;
+  font-family: "Actor-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-menu .wujudkan-semua {
+  position: absolute;
+  top: 475px;
+  left: 47px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-menu .overlap {
+  top: 547px;
+  position: absolute;
+  width: 266px;
+  height: 50px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-rectangle-ak {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffffff; /* ganti sesuai warna rectangle */
+  color: #e16417;
+  border: 90px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-color: #e16417;
+  border: 1px solid;
+  height: 50px;
+}
+
+.landing-menu .overlap-group {
+  top: 607px;
+  position: absolute;
+  width: 266px;
+  height: 50px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.landing-menu .rectangle-2 {
+  border: 1px solid;
+  border-color: #e16417;
+  position: absolute;
+  width: 266px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.landing-menu .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.overlay-belum-punya {
+  background-color: rgba(0, 0, 0, 0.5); /* efek gelap */
+  display: none; /* default tersembunyi */
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.overlay-belum-punya.active {
+  display: grid; /* tampil saat aktif */
+}
+
+.overlay-belum-punya .div {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #095f7b;
+  width: 360px;
+  height: 260px;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}

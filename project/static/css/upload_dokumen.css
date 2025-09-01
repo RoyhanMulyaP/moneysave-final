@@ -1,0 +1,205 @@
+.upload-dokumen {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.upload-dokumen .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.upload-dokumen .women-holding-phone {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 210px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.upload-dokumen .text-wrapper {
+  position: absolute;
+  top: 443px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.upload-dokumen .siapkan-dokumen-yang {
+  position: absolute;
+  top: 475px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.upload-dokumen .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.upload-dokumen .dokumen-upload {
+  top: 530px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.upload-dokumen .text-wrapper-2 {
+  position: absolute;
+  top: 533px;
+  left: 106px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.upload-dokumen .img {
+  top: 580px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.upload-dokumen .text-wrapper-3 {
+  position: absolute;
+  top: 584px;
+  left: 106px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.upload-dokumen .dokumen-upload-2 {
+  top: 630px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.upload-dokumen .text-wrapper-4 {
+  position: absolute;
+  top: 635px;
+  left: 106px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.upload-dokumen .overlap-group {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 726px;
+  left: 46px;
+  border-radius: 5px;
+}
+
+.upload-dokumen .rectangle {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: #e16417;
+  border-radius: 5px;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload-dokumen .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 47px;
+}
+
+.upload-dokumen .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.upload-dokumen .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.upload-dokumen .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.upload-dokumen .vector {
+  top: 566px;
+  position: absolute;
+  width: 265px;
+  height: 1px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.upload-dokumen .vector-2 {
+  top: 616px;
+  position: absolute;
+  width: 265px;
+  height: 1px;
+  left: 50px;
+  object-fit: cover;
+}

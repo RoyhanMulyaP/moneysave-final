@@ -1,0 +1,174 @@
+.setoran-selesai {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.setoran-selesai .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.setoran-selesai .women-holding-phone {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 210px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.setoran-selesai .text-wrapper {
+  position: absolute;
+  top: 549px;
+  left: 47px;
+  font-family: "ABeeZee-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.setoran-selesai .silahkan-lakukan {
+  position: absolute;
+  top: 581px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.setoran-selesai .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.setoran-selesai .overlap-group {
+  position: absolute;
+  width: 268px;
+  height: 52px;
+  top: 623px;
+  left: 46px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #e16417;
+}
+
+.setoran-selesai .img {
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  top: 8px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.setoran-selesai .text-wrapper-2 {
+  position: absolute;
+  top: 21px;
+  left: 67px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.setoran-selesai .text-wrapper-3 {
+  position: absolute;
+  top: 24px;
+  left: 67px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.setoran-selesai .overlap {
+  position: absolute;
+  width: 62px;
+  height: 22px;
+  top: 15px;
+  left: 194px;
+  background-color: #e16417;
+  border-radius: 2px;
+}
+
+.setoran-selesai .text-wrapper-4 {
+  position: absolute;
+  top: 3px;
+  left: 11px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.setoran-selesai .fi-rr-thumbs-up {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 744px;
+  left: 47px;
+  object-fit: cover;
+}
+
+.setoran-selesai .p {
+  position: absolute;
+  width: 242px;
+  top: 739px;
+  left: 71px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 6.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.setoran-selesai .text-wrapper-5 {
+  position: absolute;
+  top: 69px;
+  left: 28px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.btn-rectangle{
+    background-color: #e16417;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-rectangle span{
+    position: relative;
+    left: 3px;
+}

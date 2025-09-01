@@ -1,0 +1,235 @@
+.form {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.form .div {
+  background-color: #ffffff;
+  width: 370px;
+  height: 800px;
+  position: relative;
+}
+
+.form .women-holding-phone {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 210px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.form .text-wrapper {
+  position: absolute;
+  top: 443px;
+  left: 47px;
+  font-family: "ABeeZee-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form .sekarang-kamu-udah {
+  position: absolute;
+  top: 475px;
+  left: 47px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.form .text-wrapper-2 {
+  position: absolute;
+  top: 519px;
+  left: 49px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form .text-wrapper-3 {
+  position: absolute;
+  top: 589px;
+  left: 49px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form .overlap-group {
+  position: absolute;
+  width: 268px;
+  height: 42px;
+  top: 543px;
+  left: 48px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #095f7b;
+}
+
+.form .text-wrapper-4 {
+  position: absolute;
+  top: 11px;
+  left: 28px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #777777;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form .overlap {
+  position: absolute;
+  width: 268px;
+  height: 42px;
+  top: 613px;
+  left: 48px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #095f7b;
+}
+
+.form .overlap-2 {
+  position: absolute;
+  width: 266px;
+  height: 57px;
+  top: 726px;
+  left: 47px;
+}
+
+.form .text-wrapper-5 {
+  position: absolute;
+  top: 36px;
+  left: 87px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form .text-wrapper-6 {
+  position: absolute;
+  top: 8px;
+  left: 116px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 49px;
+}
+
+.form .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.form .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.form .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 235px;
+  height: 20px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-rectangle span{
+    position: relative;
+    left: -2px;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 10px;
+  left: 45px;
+  width: 305px;
+}
+
+.input-box {
+  position: absolute;
+  left: 48px;
+  width: 245px;
+  height: 40px;
+  border: 1px solid #095f7b;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #095f7b;
+  padding: 0 10px;
+  font-family: "Qualion-DemiBold", Helvetica;
+}
+
+#email {
+  top: 538px;
+}
+
+#password {
+  top: 608px;
+}

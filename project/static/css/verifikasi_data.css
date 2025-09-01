@@ -1,0 +1,310 @@
+.verifikasi-data {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  /* left: 100px; */
+}
+
+.verifikasi-data .div {
+  background-color: #ffffff;
+  width: 390px;
+  height: 800px;
+  position: relative;
+}
+
+.verifikasi-data .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.verifikasi-data .overlap {
+  width: 266px;
+  top: 726px;
+  left: 46px;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .text-wrapper {
+  position: absolute;
+  top: 11px;
+  left: 37px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verifikasi-data .text-wrapper-2 {
+  position: absolute;
+  top: 134px;
+  left: 28px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .silahkan-cek-ulang {
+  position: absolute;
+  top: 166px;
+  left: 28px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .text-wrapper-3 {
+  position: absolute;
+  top: 222px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .overlap-group {
+  width: 305px;
+  top: 246px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .text-wrapper-4 {
+  position: absolute;
+  top: 10px;
+  left: 19px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #777777;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .text-wrapper-5 {
+  position: absolute;
+  top: 293px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .div-wrapper {
+  width: 305px;
+  top: 317px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .text-wrapper-6 {
+  position: absolute;
+  top: 364px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .overlap-2 {
+  width: 305px;
+  top: 388px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .text-wrapper-7 {
+  position: absolute;
+  top: 435px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .text-wrapper-8 {
+  position: absolute;
+  top: 505px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .overlap-3 {
+  width: 305px;
+  top: 459px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .overlap-4 {
+  width: 305px;
+  top: 529px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .text-wrapper-9 {
+  position: absolute;
+  top: 575px;
+  left: 28px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verifikasi-data .laki-perempuan-wrapper {
+  width: 305px;
+  top: 599px;
+  left: 28px;
+  border: 1px solid;
+  border-color: #095f7b;
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.verifikasi-data .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 48px;
+}
+
+.verifikasi-data .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.verifikasi-data .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.verifikasi-data .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 328px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 28px;
+  width: 305px;
+}
+
+/* Posisi masing-masing input */
+#nik {
+  top: 246px;
+}
+#nama {
+  top: 317px;
+}
+#ttl {
+  top: 388px;
+}
+#agama {
+  top: 459px;
+}
+#alamat {
+  top: 530px;
+}
+#jenis_kelamin {
+  top: 601px;
+  width: 327px
+}
+
+.input-box {
+  position: absolute;
+  left: 28px;
+  width: 305px;
+  height: 40px;
+  border: 1px solid #095f7b;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #095f7b;
+  padding: 0 10px;
+  font-family: "Qualion-DemiBold", Helvetica;
+}

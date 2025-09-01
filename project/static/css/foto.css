@@ -1,0 +1,203 @@
+.foto {
+  background-color: transparent;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.foto .upload-KTP-wrapper {
+  width: 390px;
+  height: 800px;
+}
+
+.foto .upload-KTP {
+  position: relative;
+  height: 800px;
+  background-color: #ffffff;
+}
+
+.foto .text-wrapper {
+  position: absolute;
+  top: 185px;
+  left: 53px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #e16417;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.foto .div {
+  position: absolute;
+  top: 475px;
+  left: 53px;
+  font-family: "Qualion-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #095f7b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.foto .ambil-gambar-e-KTP {
+  position: absolute;
+  top: 222px;
+  left: 53px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #095f7b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.foto .logo-nama-removebg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 32px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.foto .overlap {
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  top: 726px;
+  left: 47px;
+  border-radius: 5px;
+}
+
+.foto .text-wrapper-2 {
+  position: absolute;
+  top: 8px;
+  left: 97px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.foto .group {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  top: 673px;
+  left: 49px;
+}
+
+.foto .OJK {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.foto .logo-lps {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 7px;
+  left: 102px;
+  object-fit: cover;
+}
+
+.foto .logo-bun {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.foto .foto-harus-diambil {
+  position: absolute;
+  width: 265px;
+  top: 507px;
+  left: 49px;
+  font-family: "Alatsi-Regular", Helvetica;
+  font-weight: 400;
+  color: #252525;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.foto .overlap-group {
+  position: absolute;
+  width: 297px;
+  height: 189px;
+  top: 271px;
+  left: 31px;
+}
+
+.foto .rectangle-2 {
+  position: absolute;
+  width: 291px;
+  height: 184px;
+  top: 3px;
+  left: 3px;
+  background-color: #d9d9d9;
+  border: 2px solid;
+  border-color: #7a7a7a;
+  filter: blur(2px);
+}
+
+.foto .rectangle-3 {
+  position: absolute;
+  width: 297px;
+  height: 189px;
+  top: 0;
+  left: 0;
+  border: 3px solid;
+  border-color: #7a7a7a;
+}
+
+.foto .camera-iconly-pro {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 55px;
+  left: 109px;
+}
+
+.foto .iconly-bold-camera {
+  position: relative;
+  width: 67px;
+  height: 60px;
+  top: 10px;
+  left: 7px;
+  filter: blur(2px);
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.btn-rectangle {
+  display: block;
+  width: 229px;
+  height: 20px;
+  padding: 10px 20px;
+  background-color: #e16417; /* ganti sesuai warna rectangle */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#captureBtn{
+  position: absolute;
+  top: 467px;
+  left: 20px;
+  width: 290px;
+  height: 40px;
+}
